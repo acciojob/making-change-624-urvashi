@@ -1,6 +1,7 @@
 const makeChange = (c) => {
   // your name here
-	et quarters = Math.floor(c/25);
+ 
+  let quarters = Math.floor(c/25);
   c = c %25;
   let dimes =Math.floor(c/10);
     c = c %10;
@@ -11,6 +12,9 @@ const makeChange = (c) => {
 
 };
 
-// Do not the change the code below
+
+
+
+// // Do not the change the code below
 const c = prompt("Enter c: ");
 alert(JSON.stringify(makeChange(c)));
